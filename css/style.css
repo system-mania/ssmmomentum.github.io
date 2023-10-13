@@ -1,0 +1,105 @@
+html {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.63);
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+}
+
+#clock {
+  font-size: 120px;
+  font: 700;
+  color: white;
+  margin-bottom: 30px;
+}
+
+input {
+  height: 3rem;
+  border: none;
+  border-bottom: 2px solid white;
+  background: none;
+  color: white;
+}
+
+input:hover,
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: white;
+  text-align: center;
+}
+
+input2::placeholder {
+  font-size: 20px;
+}
+
+input1::placeholder {
+  font-size: 30px;
+}
+
+.input2 {
+  width: 10rem;
+  font-size: 20px;
+}
+
+.input1 {
+  width: 15rem;
+  font-size: 30px;
+}
+
+#todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+#todo-list button {
+  background: none;
+  border: none;
+}
+
+#todo-list li {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 2px;
+  font-size: 20px;
+  display: block;
+}
+
+#weather {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+#weather span {
+  color: beige;
+}
+
+#quote {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
